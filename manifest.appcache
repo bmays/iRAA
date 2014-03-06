@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-#iRemadeAccessAgain (IRAA) v1.4.0 2014-03-04
+#iRemadeAccessAgain (IRAA) v1.4.1 2014-03-06
 
 #Subversion: 0
 
@@ -8,7 +8,7 @@ index.html
 script.js
 style.css
 CHANGES
-README
+README.md
 dist/iscroll-lite.js
 dist/jquery-2.1.0.min.js
 dist/jquery.mobile-events.min.js
