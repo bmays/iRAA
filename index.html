@@ -1,1 +1,183 @@
-Hello World
+<!DOCTYPE html>
+
+<html manifest="manifest.appcache">
+<head>
+	<meta charset="utf-8"> 
+	<title>iRAA</title>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=0.5, user-scalable=no"/>
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<link href="img/startup5.png" rel="apple-touch-startup-image" media="(device-height: 568px)">
+	<link href="img/startup.png" rel="apple-touch-startup-image" media="(device-height: 480px)">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch-icon-iphone4.png" />
+</head>
+<body>
+	<div id="viewport">
+		<div class="container">
+
+			<!-- ///////////////////// ABOUT VIEW ///////////////////// -->
+
+
+			<div id="about" class="page">
+				<div class="navbartop">
+					<div id="b_about_left" class="btn_update"></div>
+					<div id="b1newmsg" class="btn_newmsg"> </div>
+					<div class="headertext">Om</div>
+				</div>
+				<div id="aboutview" class="messageview">
+					<div id="aboutscrollable" class="scrollablecontent">
+						<div id="status"></div>
+						<div id="contact"></div>
+						<div id="changes"></div>
+					</div>
+				</div>
+			</div>
+
+			<!-- ///////////////////// NEW TICKET VIEW ///////////////////// -->
+
+
+			<div id="settings" class="page">
+				<div class="navbartop">
+					<div id="btn_home_about" class="btn_about">i</div>
+					<div id="btn_home_done" class="btn_done">Skapa</div>
+					<div class="headertext">
+						<span id="settingsHeader">Ny SL Biljett</span>
+						<span id="chooseTicketButton" class="chooseTicketButton">[Byt Stad]</span>
+					</div>
+				</div>
+				<div id="chooseTicketBody" class="chooseTicketBody"></div>
+				<div id="ticketview" class="messageview">
+					<div id="ticketscrollable" class="scrollablecontent">
+						<form id="newticketform"></form>
+					</div>
+				</div>
+				<div class="smallhelptext"><span style="color:#900">Använd aldrig detta i trafiken. Endast för utbildningssyfte! <br />Utvecklarna tar inget ansvar för användande.</span><br /><br /><span id="latestVersion"></span></div>
+			</div>
+
+			<!-- ///////////////////// INBOX VIEW ///////////////////// -->
+
+
+			<div id="inboxpage" class="page">
+				<div class="navbartop"><!--<span class="timeheader"></span>-->
+					<div id="btn_edit1" class="btn_edit">Ändra</div>
+					<div id="b2newmsg" class="btn_newmsg"></div>
+					<div class="headertext">Meddelanden</div>
+
+				</div>
+				<div id="inboxcontent">
+					<div class="inboxcontent">
+						<div class="inboxsearch"></div>
+						<div class="inboxitem" id="ticketlink">
+							<div class="inboxspace" id="inboxspace"></div>
+							<div class="inboxitemtext1" id="ticketfromphonenr"></div>
+							<div class="inboxitemtext2" id="ticketundertext"></div><img src="img/listarrow.png" class="listarrow" height="28px" width="19px" /></img>
+							<div class="inboxgotit" id="ticketgotit"></div>
+						</div>
+						<div class="inboxitem" id="sentticketlink">
+							<div class="inboxspace" id="inboxspace"></div>
+							<div class="inboxitemtext1" id="senttophonenr"></div>
+							<div class="inboxitemtext2" id="ticketundertext2"></div><img src="img/listarrow.png" class="listarrow" height="28px" width="19px" /></img>
+							<div class="inboxgotit" id="ticketgotit2"></div>
+						</div>
+						<div class="inboxitem">
+							<div class="inboxspace" id="inboxspace"></div>
+							<div class="inboxitemtext1" id="inbox_fake_sms_1_t1"></div>
+							<div class="inboxitemtext2" id="inbox_fake_sms_1_t2"></div><img src="img/listarrow.png" class="listarrow" height="28px" width="19px"></img>
+							<div class="inboxgotit" id="inboxgotit_1"></div>
+						</div>
+						<div class="inboxitem">
+							<div class="inboxspace" id="inboxspace"></div>
+							<div class="inboxitemtext1" id="inbox_fake_sms_2_t1"></div>
+							<div class="inboxitemtext2" id="inbox_fake_sms_2_t2"></div><img src="img/listarrow.png" class="listarrow" height="28px" width="19px"></img>
+							<div class="inboxgotit" id="inboxgotit_2"></div>
+						</div>
+						<div class="inboxitem">
+							<div class="inboxspace" id="inboxspace"></div>
+							<div class="inboxitemtext1" id="inbox_fake_sms_3_t1"></div>
+							<div class="inboxitemtext2" id="inbox_fake_sms_3_t2"></div><img src="img/listarrow.png" class="listarrow" height="28px" width="19px"></img>
+							<div class="inboxgotit" id="inboxgotit_3"></div>
+						</div>
+						<div class="inboxitem">
+							<div class="inboxspace" id="inboxspace"></div>
+							<div class="inboxitemtext1" id="inbox_fake_sms_4_t1"></div>
+							<div class="inboxitemtext2" id="inbox_fake_sms_4_t2"></div><img src="img/listarrow.png" class="listarrow" height="28px" width="19px"></img>
+							<div class="inboxgotit" id="inboxgotit_4"></div>
+						</div>
+						<div class="inboxitem">
+							<div class="inboxspace" id="inboxspace"></div>
+							<div class="inboxitemtext1" id="inbox_fake_sms_5_t1"></div>
+							<div class="inboxitemtext2" id="inbox_fake_sms_5_t2"></div><img src="img/listarrow.png" class="listarrow" height="28px" width="19px"></img>
+							<div class="inboxgotit" id="inboxgotit_5"></div>
+						</div>
+						<div class="inboxitem">
+							<div class="inboxspace" id="inboxspace"></div>
+							<div class="inboxitemtext1" id="inbox_fake_sms_6_t1"></div>
+							<div class="inboxitemtext2" id="inbox_fake_sms_6_t2"></div><img src="img/listarrow.png" class="listarrow" height="28px" width="19px"></img>
+							<div class="inboxgotit" id="inboxgotit_6"></div>
+						</div>
+						<div class="inboxitem">
+							<div class="inboxspace" id="inboxspace"></div>
+							<div class="inboxitemtext1" id="inbox_fake_sms_7_t1"></div>
+							<div class="inboxitemtext2" id="inbox_fake_sms_7_t2"></div><img src="img/listarrow.png" class="listarrow" height="28px" width="19px"></img>
+							<div class="inboxgotit"  id="inboxgotit_7"></div>
+						</div>
+						<div class="inboxitem">
+							<div class="inboxspace" id="inboxspace"></div>
+							<div class="inboxitemtext1" id="inbox_fake_sms_8_t1"></div>
+							<div class="inboxitemtext2" id="inbox_fake_sms_8_t2"></div><img src="img/listarrow.png" class="listarrow" height="28px" width="19px"></img>
+							<div class="inboxgotit" id="inboxgotit_8"></div>
+						</div>
+						<div class="inboxitem">
+							<div class="inboxspace" id="inboxspace"></div>
+							<div class="inboxitemtext1" id="inbox_fake_sms_9_t1"></div>
+							<div class="inboxitemtext2" id="inbox_fake_sms_9_t2"></div><img src="img/listarrow.png" class="listarrow" height="28px" width="19px"></img>
+							<div class="inboxgotit" id="inboxgotit_9"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- ///////////////////// MESSAGE VIEW ///////////////////// -->
+
+
+			<div id="messagepage" class="page">
+				<div class="navbartop">
+					<div id="b2messages" class="btn_messages"></div>
+					<div id="btn_edit2" class="btn_edit2">Kontakt</div>
+					<div id="slphone" class="headertext"></div>
+				</div>
+				<div id="messageview" class="messageview animationEnabled200ms">
+					<div id="msgscrollablecontent" class="scrollablecontent">
+						<div id="msgtimetext" class="msgtimetext"></div>
+						<div id="msgbubbleandlink"></div>
+					</div>
+				</div>
+				<div id="textinputmessage" class="footerbar animationEnabled200ms"></div>
+				<div id="addtocalendar" class="addtocalendar"></div>
+			</div>
+		</div>
+
+		<!-- ///////////////////// NOTICE POPUP ///////////////////// -->
+
+
+		<div id="popup_bg" class="popup_bg"></div>
+	</div>
+</body>
+</html>
+<script src="dist/jquery-2.1.0.min.js" type="text/javascript"> </script>
+<script>
+	if (window.navigator.standalone) {
+		$("meta[name='apple-mobile-web-app-status-bar-style']").remove();
+		$('#in_web_clips').show();
+	}
+	else {
+		$('#in_safari').show();
+	}
+</script>
+<script src="script.js" type="text/javascript"> </script>
+<script src="dist/iscroll-lite.js" type="text/javascript"> </script>
+<script src="dist/scrollTo2.js" type="text/javascript"> </script>
+<script src="dist/jquery.mobile-events.min.js" type="text/javascript"> </script>

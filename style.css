@@ -1,0 +1,735 @@
+/* Portrait */
+/* iPhone < 5 */
+@media screen and (orientation:portrait) and (max-device-height : 480px) {
+	/* Portrait styles */
+	#viewport {
+		width: 640px;
+		height: 960px;
+	}
+
+	div.page {
+		width: 640px;
+		height: 960px;
+	}
+
+	div.container {
+		width: 2560px;
+		height: 960px;
+	}
+
+	.scrollablecontent {
+		height: 880px;
+	}
+
+	#inboxcontent {
+		height: 838px;
+	}
+
+	div.footerbar {
+		height: 520px;
+		width: 640px;
+		background-image: url('img/footerbar.png');
+	}
+
+	div.navbartop {
+		width: 640px;
+	}
+
+	.btn_contacts {
+		width: 610px;
+	}
+
+	div.inboxsearch {
+		background-image: url('img/searchbar.png');
+		width: 640px;
+	}
+
+	div.messageview {
+		height: 745px;
+	}
+
+	.popup_bg {
+		width: 640px;
+		height: 960px;
+	}
+
+	.addtocalendar {
+		width: 640px;
+		height: 400px;
+		background-image: url('img/addtocalendar.png');
+	}
+}
+
+/* Portrait */
+/* iPhone 5 */
+@media screen and (orientation:portrait) and (min-device-height : 500px) {
+	/* Portrait styles */
+	#viewport {
+		width: 640px;
+		height: 1136px;
+	}
+
+	div.page {
+		width:640px;
+		height:1136px;
+	}
+
+	div.container {
+		width:2560px;
+		height:1136px;
+	}
+
+	.scrollablecontent {
+		height: 1096px;
+	}
+
+	#inboxcontent {
+		height:1014px;
+	}
+
+	div.footerbar {
+		height: 520px;
+		width: 640px;
+		background-image: url('img/footerbar.png');
+	}
+
+	div.navbartop {
+		width:640px;
+	}
+
+	.btn_contacts {
+		width: 610px;
+	}
+
+	div.inboxsearch {
+		background-image: url('img/searchbar.png');
+		width: 640px;
+	}
+
+	div.messageview {
+		height:920px;
+	}
+
+	.popup_bg {
+		width: 640px;
+		height: 1136px;
+	}
+
+	.addtocalendar {
+		width: 640px;
+		height: 400px;
+		background-image: url('img/addtocalendar.png');
+	}
+}
+
+/* Landscape */
+/* iPhone < 5 */
+@media screen and (orientation:landscape) and (max-device-height : 480px) {
+	/* Landscape styles */
+	#viewport {
+		width: 960px;
+		height: 640px;
+	}
+	
+	div.page {
+		width: 960px;
+		height: 640px;
+	}
+
+	div.container {
+		width: 3840px;
+		height: 640px;
+	}
+
+	.scrollablecontent {
+		height: 880px;
+	}
+
+	#inboxcontent {
+		height: 512px;
+	}
+
+	div.footerbar {
+		height: 410px;
+		width:960px;
+		background-image: url('img/footerbar_landscape_ip4.png');
+	}
+
+	div.navbartop {
+		width: 960px;
+	}
+
+	.btn_contacts {
+		width: 1250px;
+	}
+
+	div.inboxsearch {
+		background-image: url('img/searchbar_landscape_ip4.png');
+		width: 960px;
+	}
+
+	div.messageview {
+		height: 425px;
+	}
+
+	.popup_bg {
+		width: 960px;
+		height: 640px;
+	}
+
+	.addtocalendar {
+		width: 960px;
+		height: 400px;
+		background-image: url('img/addtocalendar_landscape_ip4.png');
+	}
+}
+
+/* Landscape */
+/* iPhone 5 */
+@media screen and (orientation:landscape) and (min-device-height : 500px), (min-device-width : 500px) {
+	/* Landscape styles */
+	#viewport {
+		width: 1136px;
+		height: 640px;
+	}
+	
+	div.page {
+		width: 1136px;
+		height: 640px;
+	}
+
+	div.container {
+		width: 4544px;
+		height: 640px;
+	}
+
+	.scrollablecontent {
+		height: 880px;
+	}
+
+	#inboxcontent {
+		height: 512px;
+	}
+
+	div.footerbar {
+		height: 410px;
+		width:1136px;
+		background-image: url('img/footerbar_landscape_ip5.png');
+	}
+
+	div.navbartop {
+		width: 1136px;
+	}
+
+	.btn_contacts {
+		width: 1600px;
+	}
+
+	div.inboxsearch {
+		background-image: url('img/searchbar_landscape_ip5.png');
+		width: 1136px;
+	}
+
+	div.messageview {
+		height: 425px;
+	}
+
+	.popup_bg {
+		width: 1136px;
+		height: 640px;
+	}
+
+	.addtocalendar {
+		width: 1136px;
+		height: 400px;
+		background-image: url('img/addtocalendar_landscape_ip5.png');
+	}
+}
+
+body {
+	background-color: white; /* for the tint */
+	background-image: linear-gradient(to bottom, white 0%, white 100%); /* for the body */
+}
+
+#viewport {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	overflow:hidden;
+}
+
+div.page {
+	background-color: #fff;
+	float:left;
+}
+
+div.container {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display: inline block;
+}
+
+#inboxcontent {
+	background-color:#fff;
+	position:relative;
+}
+
+div.footerbar {
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	transform: translate3d(0px, 0px, 0px);
+}
+
+div.messageview {
+	position: relative;
+	top: 0px;
+	background-color: white;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	transform: translate3d(0px, 0px, 0px);
+}
+
+.scrollablecontent {
+	background: #fff;
+}
+
+.popup_bg {
+	z-index: 2000;
+	background-color: rgba(10, 10, 10, 0.425);
+	position: fixed;
+	display: none;
+}
+
+.addtocalendar {
+	z-index: 2001;
+	position: absolute;
+	bottom: -400px;
+}
+
+.chooseTicketBody {
+	z-index: 1;
+	background-color: white;
+	width: inherit;
+	height: inherit;
+	position: absolute;
+	top: 128px;
+	display: none;
+}
+
+.chooseTicketButton {
+	font: 30px -apple-system-font;
+	color: rgb( 0, 122, 255 );
+	padding-left: 10px;
+}
+
+.town {
+	font: 32px -apple-system-font;
+	color: rgb( 0, 122, 255 );
+	height: 60px;
+	line-height: 60px;
+	border-radius: 15px;
+	background-color: rgb(247,247,247);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 90%;
+	text-align: center;
+	border: 1px solid #a2a2a2;
+}
+
+* {
+	-webkit-user-select: none;
+}
+
+div.navbartop {
+	height:87px;
+	background-color: rgb(247,247,247);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	position:relative;
+	z-index:1000;
+	padding-top: 40px;
+	border-bottom: 1px solid #a2a2a2;
+}
+
+.headertext {
+	top:63px;
+	width:100%;
+	color: #000;
+	font: 32px -apple-system-font;
+	font-weight: bold;
+	position:absolute;
+	text-align: center;
+	left: 3px;
+}
+
+.msgtimetext {
+	position:relative;
+	top: 20px;
+	text-align: center;
+	color: #8e8e93;
+	font: bold 22px 'Helvetica Neue', 'HelveticaNeue';
+}
+
+.doubletap-window {
+	display: none;
+	float: left;
+	background: transparent url('img/doubletap-message.png') no-repeat top center;
+	position: absolute;
+	top: -12px;
+	left: 70px;
+	width: 317px;
+	height: 90px;
+	z-index: 1000;
+}
+
+.whitetext {
+	color: #fff !important;
+}
+
+.msgbubble, .msgbubble_small, .msgbubble_medium, .msgbubble_large, .msgbubble_xtralarge, .msgbubble_xtraxtralarge {
+	z-index: 3;
+	background: url(img/messagebubble_top.png) 0 0 no-repeat,url(img/messagebubble_bottom.png) 0 100% no-repeat,url(img/messagebubble_body.png) 0 30px repeat-y;
+	position:relative;
+	float:left;
+	top: 36px;
+	width: 370px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:32px;
+	padding-right:20px;
+	font: 34px -apple-system-font;
+	vertical-align: middle;
+	line-height:110%;
+	left:22px;
+}
+
+.selected {
+	background: url(img/messagebubble_top_selected.png) 0 0 no-repeat,url(img/messagebubble_bottom_selected.png) 0 100% no-repeat,url(img/messagebubble_body_selected.png) 0 30px repeat-y;
+}
+
+span.thin{
+	font-weight: normal;
+}
+
+.msgbubble_small, .msgbubble_medium, .msgbubble_large, .msgbubble_xtralarge, .msgbubble_xtraxtralarge {
+	color: #fff;
+	text-align: right;
+	float: right;
+	margin-right: 6px;
+	height: 58px;
+}
+
+.msgbubble_small {
+	background-image: url('img/sentmessagebubble_small.png');
+	width: 74px;
+	padding-top: 18px;
+	padding-left: 0px;
+	padding-right: 50px;
+}
+
+.msgbubble_medium {
+	background-image: url('img/sentmessagebubble_medium.png');
+	width: 95px;
+	padding-top: 18px;
+	padding-left: 0px;
+	padding-right: 50px;
+}
+
+.msgbubble_large {
+	background-image: url('img/sentmessagebubble_large.png');
+	width: 114px;
+	padding-top: 18px;
+	padding-left: 0px;
+	padding-right: 50px;
+}
+
+.msgbubble_xtralarge {
+	background-image: url('img/sentmessagebubble_xtralarge.png');
+	width: 138px;
+	padding-top: 18px;
+	padding-left: 0px;
+	padding-right: 50px;
+}
+
+.msgbubble_xtraxtralarge {
+	background-image: url('img/sentmessagebubble_xtralarge.png');
+	width: 148px;
+	padding-top: 18px;
+	padding-left: 0px;
+	padding-right: 50px;
+}
+
+a:link, a:active, a:hover, a:visited {
+	color: #007aff;
+}
+
+a:active, a:hover {
+	opacity: 0.8;
+}
+
+div.listitem {
+	position: relative;
+	width: 100%;
+	height: 70px;
+	background: #ffffff;
+	margin: 2px 0px 2px 0px;
+}
+
+div.listitem > span {
+	color:black;
+	font: 30px -apple-system-font;
+	position: relative;
+	top: 16px;
+	left: 25px;
+}
+div.listitem > div {
+	position:relative;
+	float: right;
+	top: 24px;
+	right: 30px;
+}
+
+.smallhelptext {
+	background-color: rgb(247,247,247);
+	border-top: 1px solid #a2a2a2;
+	text-align: center;
+	color: gray;
+	font: 18px -apple-system-font;
+	font-weight: bold;
+	position: absolute;
+	width: inherit;
+	bottom: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	z-index: 2;
+}
+
+div.inboxsearch {
+	position: relative;
+	height:86px;
+	border-bottom: 1px solid #a7a7a7;
+	border-top: 1px solid #a7a7a7;
+}
+
+div.inboxspace{
+	width:61px;
+	height:150px;
+	z-index:3;
+	margin-top:-6px;
+	position: relative;
+	float:left;
+	background: #ffffff;
+}
+
+div.inboxitem {
+	position: relative;
+	background-color: white;
+	width:100%;
+	height:138px;
+	z-index: 2;
+	border-bottom: 1px solid #bcbcbc;
+	padding-top: 5px;
+}
+
+.inboxitemtext1 {
+	position: relative;
+	top: 6px;
+	font: bold 34px 'Helvetica Neue', 'HelveticaNeue';
+	color: black;
+	line-height:130%;
+}
+
+.inboxitemtext2 {
+	position: relative;
+	margin-top:6px;
+	width:512px;
+	height:87px;
+	font: 30px 'Helvetica Neue', 'HelveticaNeue-Bold';
+	color: #808080;
+	line-height:130%;
+}
+
+.inboxgotit {
+	position: relative;
+	float: right;
+	top:-126px;
+	right: 43px;
+	font: normal 30px 'Helvetica Neue', 'HelveticaNeue';
+	color: #8a8a8a;
+}
+
+img.listarrow {
+	position:relative;
+	top:-120px;
+	right: 21px;
+	float: right;
+}
+
+p {
+	font: -apple-system-font;
+	font-size: 22px;
+	padding-left: 20px;
+	color: gray;
+	margin: 0.1em;
+}
+
+h1 {
+	font: -apple-system-font;
+	font-size: 32px;
+	padding-left: 5px;
+}
+
+h2 {
+	font: -apple-system-font;
+	font-size: 24px;
+	padding-left: 5px;
+	margin: 0.1em;
+}
+
+/* === Buttons === */
+div {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+#inboxpage .btn_edit {
+	width: 122px !important;
+}
+
+div.btn_edit {
+	position:relative;
+	float:left;
+	top:22px;
+	left: 18px;
+	width: 238px;
+	height: 60px;
+	z-index: 2;
+	font: 34px -apple-system-font;
+	color: rgb( 0, 122, 255 );
+}
+
+div.btn_done {
+	position:relative;
+	float:right;
+	width: 110px;
+	height: 60px;
+	top:20px;
+	right:6px;
+	z-index: 2;
+	font: 34px -apple-system-font;
+	color: rgb( 0, 122, 255 );
+}
+
+div.btn_edit2 {
+	position:relative;
+	float:right;
+	top:22px;
+	right: 16px;
+	height: 60px;
+	z-index: 2;
+	text-align: center;
+	font: 34px -apple-system-font;
+	color: rgb( 0, 122, 255 );
+}
+
+#inboxpage .btn_edit {
+	width: 122px !important;
+}
+
+div.btn_newmsg {
+	position: relative;
+	float:right;
+	width: 68px;
+	height: 60px;
+	top: 14px;
+	right: 10px;
+	z-index: 2;
+	background-image: url('img/btn_newmsg.png');
+}
+
+div.btn_update {
+	position: relative;
+	float:left;
+	width: 60px;
+	height: 60px;
+	top: 14px;
+	left: 10px;
+	z-index: 2;
+	background-image: url('img/btn_update.png');
+}
+
+div.btn_about {
+	position:relative;
+	float:left;
+	width:44px;
+	height:44px;
+	top:15px;
+	left:20px;
+	z-index: 200;
+	border-width: 2px;
+  border-color: rgb( 13, 122, 255 );
+  border-style: solid;
+  border-radius: 50%;
+  text-align: center;
+  color: rgb( 13, 122, 255 );
+	font: 34px -apple-system-font;
+}
+
+div.btn_about:hover {
+  border-color: rgba(89, 162, 252, 0.7);
+  color: rgba(89, 162, 252, 0.7);
+}
+
+.btn_contacts {
+	height: 66px;
+	display: none;
+	float: left;
+	position: absolute;
+	top: 0px; /* -90px */
+	z-index: 800;
+	font: 34px -apple-system-font;
+	color: #000;
+	padding-left: 30px;
+	padding-top: 22px;
+	border-bottom: 1px solid #aaa;
+	background: rgba(247,247,247,0.95) url('img/btn_contact.png') no-repeat top center;
+}
+
+div.btn_messages {
+	position:relative;
+	float:left;
+	width: 247px;
+	height: 60px;
+	top: 14px;
+	left: 16px;
+	z-index: 2;
+	background: transparent;
+	background-image: url('img/btn_messages.png');
+	font-size: 17px;
+	color: rgb(21, 125, 251);
+	font-weight: 300;
+	line-height: 44px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-size: 27px;
+	text-indent: 35px;
+}
+
+.back {
+	width: 167px !important;
+}
+
+/* === Switches === */
+
+/* 76, 217, 100 */
+
+input[type=checkbox] {
+	-webkit-transform: scale(2.5); 
+	padding: 10px;
+}
+
+input[type="radio"] {
+	-webkit-transform: scale(2.5); 
+	padding:	10px;
+}

@@ -1,0 +1,152 @@
+# NYTT I IRAA 1.4.0 2014-03-04
+
++ (web) Lagt till Byt stad sida för framtida biljett-typer
++ (web) "Skapa-sidan" är nu scrollbar
++ (web) Delat upp skapandet av biljetter i flera steg för att underlätta tillägg av framtida städer.
++ (web) Ändrat messagebubble till 3 bilder: top, body, bottom vilket tillåter dynamisk storlek på sms-bubblorna
++ (web) Tog bort ofärdiga städer och ersatte med en placeholder
++ (web) Scrollen på messagepage är nu mer dynamisk och beror på innehållet.
++ (web) Det går nu att välja mellan Göteborg o Stockholm, appen defaultar till SL och kommer sedan ihåg ditt val.
++ (web) Minifierade script.js
++ (web) Fler donationsalternativ tillagda
++ (native iOS) Rättade till positionen på kopiera dialogen
++ (native iOS) Ändrade possitionen för tangenborden så att de kom lite högre upp (tack sep5)
++ (VT) input till göteborg är klart. Appen sparar dina tre sista siffror i tfnnummret efter att du skrivit in dem en gång.
++ (VT) La till möjlighet till att skapa nattbiljetter i VT (tack trasman)
++ (VT) Fixat biljettlayout för västtrafik göteborg (stort tack trasman)
++ (VT) Fixat inkorg samt skickat meddelande för göteborg (tack trasman)
++ (VT) Genererar nu nya 'giltiga' koder för göteborg (samma som Fejkbiljett)
++ (VT) Fixade priserna så att de visas rätt i appen (tack trasman o Fejkbiljett)
++ (fix) En del mindre buggfixar
+
+----------------------------
+
+# NYTT I IRAA 1.3.3 2014-02-21
+
++ (web) Snabbat upp sidan och reducerat storleken på de filer som laddas ned.
++ (web) Förhindrade multipla klick-event på om-sidan FIX
++ (web) Snabba upp script.js
++ (web) Minimera minnesåtgång av cachade objekt. iRAA är nu 25% mindre
++ (web) Bytt ut vissa bilder mot ren css/html.
++ (web) 'Ändra' knappen har nu också lite funktionalitet (Samma som 'skapa nytt sms')
++ (web) La till en fallback på appcache error som nu säger till användaren att starta om iRAA om problemet kvarstår.
++ (web) Gjorde style mer kompakt.
++ (web) Bytte popup_bg bild mot css background rgba
++ (SL) Slumpar nu fram kontrollkod på 6+8 med understruket mellanslag eller 6+9 siffror utan understruket mellanslag
++ (native iOS) Stryker under kontrollkod korrekt. Mellanslaget understruket på koder med 6+8 siffror och inte på koder med 6+9 siffror.
++ (native iOS) Fixat keyboard i porträtt-läget så att det är några pixlar högre i nedfält läge.
++ (native iOS) Inboxens utseende är nu näst intil identiskt med det riktiga.
++ (native iOS) Ändrade font på texten som dyker upp när man trycker på "Kontakt"
+
+----------------------------
+
+# NYTT I IRAA 1.3.2 2014-02-16
+
++ (web) Ny (officiell) domän: http://iraa.site40.net/ samt backup på https://db.tt/g1zIJShq
++ (web) Tog bort 'txt' ur alla fil-ändelser för att den dynamiska laddningen ska fungera på 3e parts host. 
++ (web) La till ändringar till status-symbolen för att visa om appen är on-/offline, håller på att ladda ned eller redo att installera en uppdatering.
++ (web) La till möjlighet till donation och kontakt.
++ (web) La till ändringar till uppdaterings-knappen som gör det omöjligt att uppdatera omo en uppdatering redan pågår.
++ (web) Fixade footern på iphone5 på första sidan då versionsnummret inte syntes (tack klyv)
++ (web) Förhindrade multipla klick-event på om-sidan
++ La till några nya guider i README
+
+----------------------------
+
+# NYTT I IRAA 1.3.1 2014-02-16
+
++ (web) La till möjlighet för sms att inkomma samma dag som dagens datum.
++ (web) Inboxens datum och tider har fått en mindre tillrättavisning för att följa iOS standarder. (tex om det är lördag idag så visas fredag som igår)
+
+----------------------------
+
+# NYTT I IRAA 1.3.0 2014-02-15
+
++ (SL) La till länspassage med giltiga kombinationer, giltighetstider och priser
++ (native iOS) Ändrade tangentbordet i porträttläge så att det blev 6 pixlar högre
++ (web) La till info/om -knapp på "skapasidan"
++ (web) La till "om"sida
++ (web) La till tillbakaknapp på omsidan
++ (web) La till kontaktinfo på omsidan
++ (web) La till changelog på omsidan
++ (web) Ändrade namn på några bilder som felaktigt hette portrait
++ (web) Tog bort automatisk uppdatering och ersatte med manuell uppdatering med tillhörande knapp o statusmeddelanden
++ (web) Laddar nu version dynamiskt från appcache manifest
++ (web) Laddar nu changelog dynamiskt från CHANGES.txt
+
+----------------------------
+
+# NYTT I IRAA 1.2.0 2014-02-12
+
++ (native iOS) Ändring av SL-nummer i inkorgen till 076 720 10 10
+
+----------------------------
+
+# NYTT I IRAA 1.1.3 2014-02-10
+
++ (web) Ändrade versionshanteringssystem
+
+----------------------------
+
+# NYTT I IRAA 1.13 2014-02-10
+
++ (web) Nya instruktioner för att installera själv. (tack JohnRim)
+
+----------------------------
+
+# NYTT I IRAA 1.12 2014-02-09
+
++ (native iOS7) Alla zoner + priser kan nu väljas igen.
+
+----------------------------
+
+# NYTT I IRAA 1.11 2014-02-09
+
++ (native iOS7) 10 st E ist. för 9 i sms-koden
+
+----------------------------
+
+# NYTT I IRAA 1.1 2014-02-09
+
++ (native iOS7) Fixat mellanrummet i näst sista länken som nu också har korrekt beteende.
+
+----------------------------
+
+# NYTT I IRAA 1.01 2014-02-09
+
++ (native iOS7) Korrekt font i msgbubble (tack sep5)
++ (native iOS7) Dismissar nu tangentbord och kontakt-dialog vid scroll på msg-body istället för klick
++ (native iOS7) Kontakt-dialog är nu lite transparent (tack sep5)
+
+----------------------------
+
+# NYTT I IRAA 1.0 2014-02-08
+
++ Stöd för iphone4 landscape (och portrait såklart)
++ Stöd för iphone5 landscape (och portrait såklart)
+
++ (native iOS7) Kontakt/Klar animation bättre
++ (native iOS7) Kontakt ruta animeras fram och tillbaka
++ (native iOS7) Kontakt ruta kan tas bort genom att klicka på 'Klar'
++ (native iOS7) Kontakt/Klar knappen flyttade 1 resp. 2 pixlar ned för att bättre överensstämma med '< Meddelanden'
++ (native iOS7) Kontaktens namn försvinner nu från headern och dyker upp i kontakt rutan när 'Kontakt' klickas
++ (native iOS7) Ovanstående event reverseras när 'Klar' klickas. 
++ (native iOS7) Både portrait och landscape stöds på iPhone 4 och iPhone 4s. (Behöver bilder till 5/5s)
++ (native iOS7) Alla länkar i smset fixade (Påpekat av Qinjo).
++ (native iOS7) Fixat diverse stilar (style.css), fonter (går nu att testköra appen på desktop med rätt fonts) och färger (ljusare nyans för sms bubbla/header/Kontakt ruta)
++ (native iOS7) Klicka på 'Kopierings dialogen' för att ta bort den (Kopierings dialogen är den som visas när du dubbelklickar på en meddelanderuta)
++ (native iOS7) Tangentbordet kan fås tillbaka till ursrpungsposition genom att klicka i meddelandekroppen. (Tex. på sms-bubblan)
++ (native iOS7) inboxens scrollobjekt har är nu helt vita vid scroll och ljusgråa vid netryck.
++ (native iOS7) Meddelanden scrollas upp och ned korrekt när tangentbordet visas/ och inte.
++ (native iOS7) Meddelandebubbla får nu korrekt mörkare nyans när kopieringsdialogen invokeras.
++ (native iOS7) Fullt fungerande scroll överallt.
++ (native iOS7) Ny (korrekt) kalender-dialog när man trycker på tiden och/eller datumet i sms-bubblan. (Påpekat av Qinjo)
++ (native iOS7) Dimmar bakgrunden vid kalenderdialog.
+
++ (web) Omstrukturerat filer
++ (web) Uppdaterat vissa librarys (jquery, iScroll)
++ (web)	Rensat bort en del oanvänd kod
++ (web) Uppdaterat appcache så att hela applikationen kan köras offline
++ (web) Lagt till kod för uppdatering av appen (Ni ska efter denna version aldrig behöva rensa mobil-data igen för sidan) -> ni får en popup som frågar om ni vill genomföra uppdateringen.
+
++ Säkert en del fler saker som jag inte kommit ihåg att ta med.
