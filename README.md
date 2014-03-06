@@ -1,7 +1,7 @@
 iRAA
 ====
 
-# INSTALLATION AV IRAA
+## INSTALLATION AV IRAA
 
 Ska du ladda upp via webbläsare behöver du själv skapa två mappar i din dropbox, då dropbox ej kan ladda upp mappar via webbläsaren (en lösning på det är att du använder dropboxs desktopklient). Här är instruktioner för installation via webbläsare:
 
@@ -29,7 +29,7 @@ Mappen img ligger i Dropbox\Public\IRAA\
 
 
 
-# UPPDATERING AV IRAA (t.o.m version 1.3.0) [På egen server/dropbox]
+## UPPDATERING AV IRAA (t.o.m version 1.3.0) [På egen server/dropbox]
 
 För att "installera" en uppdatering till IRAA följ dessa instruktioner:
 
@@ -46,7 +46,7 @@ För att "installera" en uppdatering till IRAA följ dessa instruktioner:
 
 
 
-# UPPDATERING AV IRAA (t.o.m version 1.3.0) [På officiell dropbox-länk i flashback-tråden]
+## UPPDATERING AV IRAA (t.o.m version 1.3.0) [På officiell dropbox-länk i flashback-tråden]
 
 1. Starta appen.
 2. Vänta ~60 sekunder
@@ -55,7 +55,7 @@ För att "installera" en uppdatering till IRAA följ dessa instruktioner:
 
 
 
-# UPPDATERING AV IRAA (efter version 1.3.0) [På egen server/dropbox]
+## UPPDATERING AV IRAA (efter version 1.3.0) [På egen server/dropbox]
 
 För att "installera" en uppdatering till IRAA följ dessa instruktioner:
 
@@ -75,7 +75,7 @@ För att "installera" en uppdatering till IRAA följ dessa instruktioner:
 
 
 
-# UPPDATERING AV IRAA (efter version 1.3.0) [På officiell länk och dropbox-länk i flashback-tråden]
+## UPPDATERING AV IRAA (efter version 1.3.0) [På officiell länk och dropbox-länk i flashback-tråden]
 
 1. Starta appen.
 2. Gå till info/om-sidan (ikon uppe till vänster)
