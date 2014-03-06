@@ -1,11 +1,27 @@
 iRAA
 ====
 
+iRAA står för iRemadeAccessAgain och är en webapp till iphone 4/4s/5/5c/5s (iOS7) som skapar biljetter som *liknar* äkta sms-biljetter som behövs för att åka med kollektivtraffiken i olika städer.
+
+### Ansvarsfriskrivning
+
+Att använda Fejkbiljett för att olovligen åka i kollektivtrafiken är att betrakta som bedrägeri och/eller urkundsförfalskning, utvecklarna uppmanar användarna att endast använda program och källkod i utbildningssyfte.
+
 ### Officiella länkar 
 
 Se signaturen på https://www.flashback.org/u499403
 
-### UPPDATERING AV IRAA [från en av ovanstående länkar]
+### Installation av iRAA [från en av ovanstående länkar]
+
+1. Navigera till en av länkarna med en iphone på iOS7 med Safari
+2. Tryck längst ned i mitten av skärmen (på fyrkanten med en pil i)
+3. Välj "Lägg till på hemskärmen" och döp till valfritt namn
+4. Starta appen och tryck på den runda ringen högst upp till vänster för att komma till info/om-sidan
+5. Vänta tills alla filer laddat ned
+6. Tryck på uppdateringspilen högst upp till vänster för att försäkra dig om att du har den senaste versionen
+7. Grön text = go!
+
+### Uppdatering av iRAA [från en av ovanstående länkar]
 
 1. Starta appen.
 2. Gå till info/om-sidan (ikon uppe till vänster)
@@ -14,9 +30,7 @@ Se signaturen på https://www.flashback.org/u499403
 5. Tryck på länken som dyker upp för att installera.
 6. Uppdateringen är klar!
 
-
-
-### INSTALLATION AV IRAA [på egen "server"/dropbox]
+### Installation av iRAA [på egen server/dropbox]
 
 Ska du ladda upp via webbläsare behöver du själv skapa två mappar i din dropbox, då dropbox ej kan ladda upp mappar via webbläsaren (en lösning på det är att du använder dropboxs desktopklient). Här är instruktioner för installation via webbläsare:
 
@@ -42,9 +56,7 @@ De sex filerna är då placerade direkt i mappen IRAA.
 Mappen dist ligger i Dropbox\Public\IRAA\
 Mappen img ligger i Dropbox\Public\IRAA\
 
-
-
-### UPPDATERING AV IRAA [På egen server/dropbox]
+### Uppdatering av iRAA [På egen server/dropbox]
 
 För att "installera" en uppdatering till IRAA följ dessa instruktioner:
 
@@ -61,3 +73,15 @@ För att "installera" en uppdatering till IRAA följ dessa instruktioner:
 10. Håll koll på status-meddelandet på sidan.
 11. När uppdateringen är klar trycker du på länken som kommer upp under Status för att installera den.
 12. Uppdateringen är klar!
+
+### Donera
+
++ Bitcoin: 1NmRGFRmX8TACeD6ZcAxyAfhdYbPQf3Mo2
++ http://www.barncancerfonden.se/stod-oss/Ge-en-gava/
++ http://www.cancerfonden.se/sv/Stod-oss/Ge-en-gava/
+
+#### Tack till
+
++ Fejkbiljett (https://github.com/Olangu/Fejkbiljett-Android) för info till readme och kod som generar biljetter till främst västtrafik.
++ Alla som bidrar med äkta sms-biljetter
++ Alla som hjälper, och har hjälpt, till i https://www.flashback.org/t1047525
