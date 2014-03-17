@@ -5,7 +5,7 @@ iRAA står för iRemadeAccessAgain och är en webapp till iphone 4/4s/5/5c/5s (i
 
 ### Ansvarsfriskrivning
 
-Att använda Fejkbiljett för att olovligen åka i kollektivtrafiken är att betrakta som bedrägeri och/eller urkundsförfalskning, utvecklarna uppmanar användarna att endast använda program och källkod i utbildningssyfte.
+Att använda iRAA för att olovligen åka i kollektivtrafiken är att betrakta som bedrägeri och/eller urkundsförfalskning, utvecklarna uppmanar användarna att endast använda program och källkod i utbildningssyfte.
 
 ### Officiella länkar 
 
